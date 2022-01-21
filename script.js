@@ -28,3 +28,11 @@ for(let i=0;i<items.length;i++){
 console.log(document.getElementsByClassName('items-list'))
 
 
+
+var item2=document.querySelector('.items-list:nth-child(2)');
+item2.style.backgroundColor="green"
+
+
+var item3=document.querySelector('.items-list:nth-child(3)');
+item3.style.display="none"
+
